@@ -51,7 +51,7 @@ button {
 
 header{
     background-color: #ECECEC;
-    padding: 32px 215px;
+    padding: 24px 0px;
     border: 1px solid #ECECEC;
 }
 
@@ -122,8 +122,8 @@ color: var(--link-color);
 
 .hero{
     background: #2F303A;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
 .title{
@@ -135,7 +135,7 @@ color: var(--link-color);
         text-transform: uppercase;
         color: var(--primery-color);
         max-width: 696px;
-        margin: auto 452px;
+        margin: 0 auto;
         margin-bottom: 30px;
 
         
@@ -152,7 +152,7 @@ color: var(--link-color);
         letter-spacing: 0.06em;
         color: var(--primery-color);
         min-width: 200px;
-        margin: auto 700px;
+        margin: 0 auto;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         height: 50px;
         background-color: transparent;
@@ -161,6 +161,7 @@ color: var(--link-color);
 
 button{
     border-radius: 4px;
+    display: block;
     
     
     
@@ -174,7 +175,7 @@ button{
 
 .about{
     background-color: #F5F5F5;
-    padding-top: 94px; 
+    padding-top: 94px;
     padding-bottom: 94px;
     
     
@@ -203,11 +204,14 @@ button{
         
 }
 
+.about-list-hero{
+    width: 270px;
+}
+
 /* -----------ABOUT-US----------- */
 
 .about-us{
     background-color: #F5F5F5;
-    padding-top: 94px;
     padding-bottom: 94px;
   
 }
@@ -232,7 +236,6 @@ button{
 
 .team {
     background-color: #F5F4FA;
-    padding-top: 94px;
     padding-bottom: 94px;
     
 }
@@ -279,6 +282,9 @@ margin-right: 30px;
         color: #757575;
 }
 
+.team-hero{
+    padding: 30px 0;
+}
 
 /* -----------FOOTER----------- */
 
@@ -289,7 +295,7 @@ margin-right: 30px;
         line-height: 1.19;
         letter-spacing: 0.03em;
         background-color: #2F303A;
-        padding: 60px 1154px 60px 215px;
+        padding: 60px 0;
 }
 
 .address{
@@ -321,24 +327,27 @@ margin-right: 30px;
 
 .logo-footer {
     color: #FFFFFF;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+}
+
+.adress-hero:not(:last-child) {
+    padding-bottom: 12px;
 }
 
 /* ----------PORTFOLIO-hero---------- */
 
+
 .portfolio-hero{
     padding-top: 94px;
-    padding-bottom: 94px;
-    width: 569px;
-    height: 54px;
-    margin-left: 516px;
-    margin-bottom: 34px;
+    margin-bottom: 94px;
 }
 
 
 .portfolio-list{
     display: flex;
-  
+    height: 54px;
+    width: 569px;
+    margin-bottom: 34px;
     
 }
 
@@ -351,9 +360,10 @@ margin-right: 30px;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        min-width: 130px;
-        height: 38px;
         background: #F5F4FA;
+        padding: 6px 22px;
+        height: 38px;
+        white-space: nowrap;
         
         
 }
@@ -397,3 +407,6 @@ margin-right: 30px;
     margin-bottom: -30px;
 }
 
+.category-list-hero{
+    padding: 20px 24px;
+}
