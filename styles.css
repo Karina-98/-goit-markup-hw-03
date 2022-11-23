@@ -50,7 +50,6 @@ button {
 /* -----------HEADER----------- */
 
 header{
-    background-color: #ECECEC;
     padding: 24px 0px;
     border: 1px solid #ECECEC;
 }
@@ -102,6 +101,7 @@ header .container{
 .header-link >li:not(:last-child) {
     margin-right: 50px;
 }
+
 
 
 .header-link:hover,
@@ -174,7 +174,6 @@ button{
 /* -----------ABOUT----------- */
 
 .about{
-    background-color: #F5F5F5;
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -211,7 +210,6 @@ button{
 /* -----------ABOUT-US----------- */
 
 .about-us{
-    background-color: #F5F5F5;
     padding-bottom: 94px;
   
 }
@@ -235,8 +233,9 @@ button{
 /* -----------TEAM----------- */
 
 .team {
-    background-color: #F5F4FA;
+    padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F5F5;
     
 }
 
@@ -248,9 +247,7 @@ button{
 margin-right: 30px;
 }
 
-.team-img{
-    margin-bottom: 30px;
-}
+
 
 .team-title {
         font-size: 36px;
@@ -330,8 +327,8 @@ margin-right: 30px;
     margin-bottom: 20px;
 }
 
-.adress-hero:not(:last-child) {
-    padding-bottom: 12px;
+.address-hero:not(:last-child) {
+    margin-bottom: 12px;
 }
 
 /* ----------PORTFOLIO-hero---------- */
@@ -345,9 +342,8 @@ margin-right: 30px;
 
 .portfolio-list{
     display: flex;
-    height: 54px;
     width: 569px;
-    margin: 0px auto 34px;
+    margin: 0px auto 50px;
     
 }
 
@@ -356,7 +352,6 @@ margin-right: 30px;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
@@ -364,7 +359,7 @@ margin-right: 30px;
         padding: 6px 22px;
         height: 38px;
         white-space: nowrap;
-        
+        border: none;
         
 }
 .portfolio-list >li:not(:last-child){
@@ -374,16 +369,13 @@ margin-right: 30px;
 
 /* -----------PORTFOLIO-CATEGORY----------- */
 
-.category{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .category-list{
-    background-color: #EEEEEE;
     margin-left: 30px;
     margin-bottom: 30px;
 }
+
+
 
 .category-name{
         font-weight: 700;
@@ -409,4 +401,6 @@ margin-right: 30px;
 
 .category-list-hero{
     padding: 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
